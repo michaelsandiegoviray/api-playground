@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+
+
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+
+html {
+  font-size: 10px;
+  background-image: url('https://deerfieldlibrary.org/wp-content/uploads/2016/02/Outer-Space-Wallpaper-1.jpg');
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+body input,
+button {
+  color: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+.descript {
+  font-size: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+}
+
+
+section {
+
+  margin-left: 45%;
+}
+
+button {
+  font-size: 200%;
+}
+
+input {
+  font-size: 200%;
+}
