@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  position: absolute;
+  margin: 0 auto;
+  margin-left: 35%;
+  height: 120%;
+}
+
+h2 {
+  padding: -10%;
+  margin-top: 24%;
+  margin-left: 52%;
+  position: absolute;
+  width: 100%;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  font-size: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin-left: 45%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
